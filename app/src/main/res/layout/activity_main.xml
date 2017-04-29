@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="50"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal|bottom">
+        <ImageView
+            android:id="@+id/ivAlarm"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circle_green"
+            android:contentDescription="@string/alarm_image" />
+        <TextView
+            android:id="@+id/tvCorrespondingText"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_unlocked"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="50"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btnLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lock"/>
+
+        <Button
+            android:id="@+id/btnDoubleLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/double_lock"/>
+
+        <Button
+            android:id="@+id/btnUnlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unlock"/>
+
+        <Button
+            android:id="@+id/btnDoubleUnlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/double_unlock"/>
+    </LinearLayout>
+
+
+</LinearLayout>

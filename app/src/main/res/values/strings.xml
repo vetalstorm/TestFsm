@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="alarm_image">alarm image</string>
+    <string name="all_unlocked">AllUnlocked</string>
+    <string name="lock">LOCK</string>
+    <string name="double_lock">LOCKx2</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="double_unlock">UNLOCKx2</string>
+    <string name="all_locked">AllLocked</string>
+    <string name="driver_unlocked">DriverUnlocked</string>
+</resources>
